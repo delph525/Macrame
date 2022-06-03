@@ -1,0 +1,187 @@
+/*Mettre les images de fond*/
+.musique 
+{
+    
+    display: flex;
+    background-image: url(./asset/9-musique.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: flex-end;
+}
+
+.textemusique{
+    color: #ffffff;
+    text-align: left;
+   
+}
+
+.bijoux
+{
+   
+    background-image: url(./asset/10-bijoux-maison.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: left;
+    height: 350px;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: flex-start;
+}
+
+.textebijoux
+{
+    color: black;
+    text-align: left;
+   
+}
+
+/*Mettre la bonne largeur et centrer*/
+body
+{
+    font-family: 'Prompt', sans-serif;
+    max-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Dimensionner la première image*/
+
+.floches
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 280px;
+    border-radius: 30px;
+}
+
+.images
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    object-fit: cover;
+    min-width: 200px;
+    height: 200px;
+   
+}
+
+/*Aligner les éléments dans le header*/
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+/*Dimensionner le logo et l'arrondir*/
+.logo-haut
+{
+    width: 80px;
+    border-radius: 20px;
+    margin-right: 80px;
+}
+
+/*Dimensionner le bouton*/
+.button
+{
+   height: 80px;
+   padding: 25px;
+   background-color: rgb(172, 198, 200);
+   cursor: pointer;
+   border-radius: 20px;
+   border: none;
+   font-size: 15px;
+   font-weight: bold;
+   margin-left: 80px;
+}
+
+/*Positionner et dimensionner le titre*/
+h1
+{
+    font-size: 30px; 
+}
+
+h2
+{
+    font-size: 25px;
+    
+}
+
+h3
+{
+    font-size: 25px;
+}
+ 
+
+h4
+{
+ font-size: 20px;
+}
+
+.centre
+{
+    text-align: center;
+}
+
+
+
+/*Mettre le texte correctement*/
+
+p
+{
+    font-size: 18px;
+    font-weight: 300;
+}
+/*intro*/
+.intro{
+    text-align: left;
+    padding-bottom: 30px;
+}
+/*créer le bloc article*/
+.recup
+{
+    background-color: rgb(172, 198, 200);
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+/*Arranger les photos d'articles*/
+.recupbrico
+{
+    border-radius: 30px;
+    object-fit: cover;
+    min-width: 240px;
+    height: 200px;
+    margin: 20px;
+}
+
+.section2
+{
+    background-color: rgb(172, 198, 200); 
+    padding: 15px;
+    margin: 30px;
+}
+
+footer
+{
+  color: #1d5e68;
+  text-align: center;
+}
+
+
+
